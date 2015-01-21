@@ -1,0 +1,13 @@
+<aside>
+{{#each project in model}}
+<h2>
+  {{#link-to 'project' project}}
+    {{project.title}}
+  {{/link-to}}
+</h2>
+{{/each}}
+</aside>
+
+<section class="project">
+  {{outlet}}
+</section>
