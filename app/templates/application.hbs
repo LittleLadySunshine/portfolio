@@ -1,11 +1,16 @@
-<div class="bar bar-header bar-light">
-  <h2 class='title'>Denise McCoy</h2>
+<div id="container">
+  <nav>
+    <div class="bar bar-header bar-light">
+      <h2 class='title'>Denise McCoy</h2>
+    </div>
+
+    <button>{{#link-to 'index'}}Index{{/link-to}}</button>
+    <button>{{#link-to 'projects'}}Projects{{/link-to}}</button>
+    <button>{{#link-to 'resume'}}Resume{{/link-to}}</button>
+  </nav>
 </div>
 
-<nav>
-  <button>{{#link-to 'index'}}Index{{/link-to}}</button>
-  <button>{{#link-to 'projects'}}Projects{{/link-to}}</button>
-  <button>{{#link-to 'resume'}}Resume{{/link-to}}</button>
-</nav>
+
+
 
 {{outlet}}

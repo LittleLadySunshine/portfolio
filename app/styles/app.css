@@ -3,7 +3,6 @@ html, body {
   background: #D0A9F5;
 }
 
-
 .bar.bar-light .title {
   background: #E6E6E6;
   font-family: Georgia, serif;
@@ -60,4 +59,8 @@ aside {
 section.project {
   float: left;
   width: 70%;
+}
+
+body {
+ margin: 20px;
 }
